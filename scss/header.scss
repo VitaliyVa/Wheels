@@ -1,0 +1,139 @@
+.header {
+	background: url('../img/header/header-bg.png') no-repeat right top;
+	position: relative;
+
+	.subtitle_head {
+		margin-bottom: 60px;
+	}
+}
+.header-wrap-block {
+
+	display: flex;
+	justify-content: space-between;
+	
+}
+.header-left-block {
+	display: flex;
+	flex-direction: column;
+	
+	z-index: 3;
+
+}
+.head-title {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	
+	
+	margin: 100px 0 150px 0;
+	
+}
+.green_title {
+	text-transform: uppercase;
+	color: #6f9d4a;
+	font-size: 25px;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+.subtitle {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+}
+.btn {
+	width: 240px;
+	height: 60px;
+	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	background-image: linear-gradient(to top, #6f9d4a 0%, #84c153 100%);
+	color: #fff;
+	font-weight: 900;
+	padding-top: 20px;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 5.5s;
+}
+.btn:hover{
+    box-shadow: none;
+    -webkit-animation: si-button-pulse 0.8s 0s ease-out 1;
+    -moz-animation: si-button-pulse 0.8s 0s ease-out 1;
+    animation: si-button-pulse 0.8s 0s ease-out 1;
+    overflow: hidden;
+}
+.btn {
+    overflow: visible !important;
+}
+@keyframes si-button-pulse {
+    from {box-shadow: 0 0 8px 6px #82bf52, 0 0 12px 14px #73a44c;}
+
+    to {box-shadow: 0 0 10px 4px rgba(255, 48, 26, 0), 0 0 5px 30px rgba(255, 48, 26, 0);}
+}
+.header-right-block {
+	
+
+	
+}
+#header-img-1 {
+	
+}
+.header-img {
+	position: absolute;
+	right: 0;
+	top: 200px;
+}
+.header-central-block-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.central-left-block {
+	margin-top: 180px;
+	 img {
+	 	width: 135%;
+	 }
+}
+.central-right-block {
+	width: 700px;
+	
+	box-shadow: 0 0 40px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background-color: #17181f;
+	margin-top: 120px;
+	padding: 55px;
+	margin-bottom: 80px;
+	margin-left: 20px;
+}
+.preference-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.preference-profile {
+	flex-basis: 40%;
+	width: 200px;
+	
+	margin-top: 30px;
+
+	img {
+		margin-bottom: 15px;
+	}
+}
+.main__title-wrap {
+	padding-left: 26px;
+	img {
+		padding-bottom: 4px;
+		margin-right: 10px;
+	}
+	.main__title {
+		font-weight: 900;
+		display: inline-block;
+	}
+}
+.main__title {
+	color: #ffffff;
+	
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}

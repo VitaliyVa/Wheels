@@ -1,0 +1,25 @@
+.footer {
+	background-color: #17181f;
+	
+}
+.footer-block {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__title {
+	color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.footer-left {
+	margin-left: 50px;
+}
+.footer-right {
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 50px;
+}

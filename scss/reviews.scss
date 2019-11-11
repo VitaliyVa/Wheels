@@ -1,0 +1,77 @@
+.reviews {
+	
+	background: url('../img/center-bg-2.png') no-repeat left top 520px,
+	url('../img/center-bg.png') no-repeat center top / cover;
+	
+}
+.comment-wrap {
+	display: flex;
+	margin-top: 70px;
+	justify-content: space-between;
+}
+.title-reviews {
+	margin-top: 50px;
+}
+.comment-profile {
+	position: relative;
+	/* Style for "Прямоуголь" */
+	width: 330px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: #17181f;
+	padding: 20px;
+}
+.mini-icon {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+}
+.sub-2 {
+	padding-top: 30px;
+}
+.btn-comment {
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.surp-left {
+	img {
+		width: 130%;
+	}
+}
+.surprise-block {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bold-1 {
+	font-weight: 700;
+}
+.surp-suptitle {
+	width: 345px;
+}
+.surp-right {
+	margin-top: 100px;
+}
+.btn-surp {
+	margin-right: 300px;
+	margin-top: 40px;
+}
+.title-sale {
+	margin-top: 65px;
+}
+.last-block-wrap {
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+.last-profile {
+	width: 315px;
+
+	padding: 20px;
+
+	img {
+		margin-bottom: 10px;
+	}
+}
