@@ -187,8 +187,26 @@
         -ms-flex-align: center;
             align-items: center; }
 
+  .preference-profile img {
+    margin-bottom: 60px;
+    width: 44px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 7px; }
+
   .preference-profile {
-    width: 100%; }
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+
+  #pref-icon-2 {
+    margin-right: 16px; }
 
   .central-left-block img {
     display: none; }
@@ -633,5 +651,8 @@ h1, h2, h3, h4, h5 {
 .main-container {
   max-width: 1085px;
   margin: 0 auto; }
+
+a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

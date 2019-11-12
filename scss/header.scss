@@ -175,8 +175,21 @@
 		align-items: center;
 
 	}
+	.preference-profile img {
+    margin-bottom: 60px;
+    width: 44px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 7px;
+	}
 	.preference-profile {
 		width: 100%;
+		display: flex;
+		margin-left: 0;
+		flex-direction: row;
+	}
+	#pref-icon-2 {
+		margin-right: 16px;
 	}
 	.central-left-block img {
 		display: none;
