@@ -109,13 +109,13 @@
 }
 .preference-wrap {
 	display: flex;
-	flex-wrap: wrap;
+	
 	justify-content: space-around;
 }
 .preference-profile {
-	flex-basis: 40%;
+
 	width: 200px;
-	
+	margin-left: 20px;
 	margin-top: 30px;
 
 	img {
