@@ -86,6 +86,9 @@
   to {
     -webkit-box-shadow: 0 0 10px 4px rgba(255, 48, 26, 0), 0 0 5px 30px rgba(255, 48, 26, 0);
             box-shadow: 0 0 10px 4px rgba(255, 48, 26, 0), 0 0 5px 30px rgba(255, 48, 26, 0); } }
+#header-img-1 {
+  width: 90%; }
+
 .header-img {
   position: absolute;
   display: -webkit-box;
@@ -174,7 +177,7 @@
 @media (max-width: 673px) {
   .main__title {
     font-size: 16px; } }
-@media (max-width: 660px) {
+@media (max-width: 776px) {
   .preference-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -183,6 +186,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+
+  .preference-profile {
+    width: 100%; }
 
   .central-left-block img {
     display: none; }
@@ -271,6 +277,20 @@
   left: 97px;
   top: 190px; }
 
+.quest-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.easy-btn {
+  margin-top: 207px;
+  margin-left: 206px;
+  opacity: 0.9;
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear; }
+  .easy-btn:hover {
+    opacity: 1; }
+
 .quest-profile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,9 +339,29 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; } }
+@media (max-width: 1056px) {
+  .easy-btn {
+    margin-top: 240px;
+    margin-left: 175px; } }
+@media (max-width: 1013px) {
+  .easy-btn {
+    margin-top: 240px;
+    margin-left: 147px; } }
+@media (max-width: 964px) {
+  .easy-btn {
+    margin-top: 250px;
+    margin-left: 104px; } }
 @media (max-width: 959px) {
   #sub_disk-4 {
     padding-left: 15px; } }
+@media (max-width: 918px) {
+  .easy-btn {
+    margin-top: 260px;
+    margin-left: 54px; } }
+@media (max-width: 866px) {
+  .easy-btn {
+    margin-top: 260px;
+    margin-left: 54px; } }
 @media (max-width: 832px) {
   .warning {
     background: url("../img/warning/warning-bg-2.png") no-repeat right top 700px;
@@ -342,6 +382,27 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; } }
+@media (max-width: 595px) {
+  .easy-btn {
+    margin-top: 210px; }
+    .easy-btn img {
+      width: 87%; } }
+@media (max-width: 525px) {
+  .easy-btn img {
+    width: 87%; } }
+@media (max-width: 425px) {
+  .warning {
+    background: url("../img/warning/warning-bg-2.png") no-repeat right top 1239px;
+    background-size: 49%; }
+
+  .quest-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+
+  .easy-btn img {
+    width: 80%; } }
 @media (max-width: 410px) {
   .quest-wrap {
     width: 205px; }
@@ -420,13 +481,15 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
 
 .last-profile {
-  width: 315px;
+  width: 33%;
+  min-width: 300px;
   padding: 20px; }
   .last-profile img {
     margin-bottom: 10px; }
@@ -445,16 +508,21 @@
 
 @media (max-width: 1043px) {
   .comment-wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
 
   .comment-profile {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px;
+    height: 165px; } }
 @media (max-width: 1022px) {
   .btn-surp {
     margin-right: 150px;
@@ -561,5 +629,9 @@ h1, h2, h3, h4, h5 {
   max-width: 1085px;
   margin: 0 auto;
   padding: 0 15px; }
+
+.main-container {
+  max-width: 1085px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
