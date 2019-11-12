@@ -13,13 +13,33 @@
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
+	margin-left: 40px;
 }
 .footer-left {
 	margin-left: 50px;
 }
 .footer-right {
-	width: 400px;
+	
 	display: flex;
 	justify-content: space-around;
 	margin-right: 50px;
+}
+@media (max-width: 583px) {
+	.footer-right {
+		flex-direction: column;
+		margin-left: 20px;
+		.footer__title {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
+}
+@media (max-width: 397px) {
+	.footer-block {
+		flex-direction: column;
+	}
+	.footer-left {
+		margin-left: 13px;
+	}
+
 }
