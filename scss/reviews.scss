@@ -1,7 +1,7 @@
 .reviews {
 	
-	background: url('../img/center-bg-2.png') no-repeat left top 520px,
-	url('../img/center-bg.png') no-repeat center top / cover;
+	background: url('https://b.radikal.ru/b32/1911/ed/152efd357fa5.png') no-repeat left top 520px,
+	url('https://c.radikal.ru/c10/1911/9b/c6469436c17e.png') no-repeat center top / cover;
 	
 }
 .comment-wrap {
@@ -100,7 +100,7 @@
 	}
 	.comment-profile {
 		margin-bottom: 20px;
-		height: 165px;
+		height: 200px;
 	}
 }
 @media (max-width: 1022px) {
@@ -133,6 +133,13 @@
 		img {
 			width: auto;
 		}
+	}
+}
+@media (max-width: 599px) {
+	
+	.comment-profile {
+		
+		height: 160px;
 	}
 }
 @media (max-width: 363px) {

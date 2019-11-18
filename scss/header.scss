@@ -1,5 +1,5 @@
 .header {
-	background: url('../img/header/header-bg.png') no-repeat right top;
+	background: url('https://c.radikal.ru/c05/1911/0f/6711d9b58ef6.png') no-repeat right top;
 	position: relative;
 
 	.subtitle_head {
@@ -53,7 +53,7 @@
 	align-items: center;
 	text-align: center;
 	cursor: pointer;
-	transition: all 5.5s;
+	transition: box-shadow 0.8s, animation 0.8s, overflow 0.8s;
 }
 .btn:hover{
     box-shadow: none;
