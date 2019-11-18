@@ -1,6 +1,6 @@
 .warning {
 	
-	background: url('https://d.radikal.ru/d39/1911/ae/6079d126501d.png') no-repeat right top 300px;
+	background: url('https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png') no-repeat right top 408px;
 	
 }
 .bg-wrap {
@@ -12,6 +12,7 @@
 .disk-wrap {
 	margin-top: 80px;
 	display: flex;
+	margin-bottom: 95px;
 
 }
 .disk-profile {
@@ -80,7 +81,7 @@
 @media (max-width: 1180px) {
 	.warning {
 	
-	background: url('../img/warning/warning-bg-2.png') no-repeat right top 600px;
+	background: url('https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png') no-repeat right top 600px;
 	
 	}
 	.disk-block-1, .disk-block-2 {
@@ -129,14 +130,17 @@
 }
 @media (max-width: 832px) {
 	.warning {
-		background: url('../img/warning/warning-bg-2.png') no-repeat right top 700px;
+		background: url('https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png') no-repeat right top 691px;
 		background-size: 40%;
+	}
+	.disk-wrap {
+		margin-bottom: 365px;
 	}
 }
 @media (max-width: 630px) {
 	.warning {
-    background: url('../img/warning/warning-bg-2.png') no-repeat right top 1299px;
-    background-size: 29%;
+    background: url('https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png') no-repeat right top 1299px;
+    background-size: 40%;
 	}
 	.disk-wrap {
 	justify-content: center;
@@ -161,8 +165,8 @@
 }
 @media (max-width: 425px) {
 	.warning {
-    background: url('../img/warning/warning-bg-2.png') no-repeat right top 1239px;
-    background-size: 49%;
+    background: url('https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png') no-repeat right top 1239px;
+    background-size: 60%;
 	}
 	.quest-block {
 		flex-direction: column-reverse;

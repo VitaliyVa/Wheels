@@ -253,7 +253,7 @@
     /* padding-left: 26px; */
     padding-left: 0; } }
 .warning {
-  background: url("https://d.radikal.ru/d39/1911/ae/6079d126501d.png") no-repeat right top 300px; }
+  background: url("https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png") no-repeat right top 408px; }
 
 .bg-wrap {
   background: url("https://d.radikal.ru/d17/1911/21/2c2bbbaa836f.png") no-repeat left top 200px; }
@@ -265,7 +265,8 @@
   margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin-bottom: 95px; }
 
 .disk-profile {
   /* Style for "Прямоуголь" */
@@ -336,7 +337,7 @@
 
 @media (max-width: 1180px) {
   .warning {
-    background: url("../img/warning/warning-bg-2.png") no-repeat right top 600px; }
+    background: url("https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png") no-repeat right top 600px; }
 
   .disk-block-1, .disk-block-2 {
     display: -webkit-box;
@@ -379,12 +380,15 @@
     margin-left: 54px; } }
 @media (max-width: 832px) {
   .warning {
-    background: url("../img/warning/warning-bg-2.png") no-repeat right top 700px;
-    background-size: 40%; } }
+    background: url("https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png") no-repeat right top 691px;
+    background-size: 40%; }
+
+  .disk-wrap {
+    margin-bottom: 365px; } }
 @media (max-width: 630px) {
   .warning {
-    background: url("../img/warning/warning-bg-2.png") no-repeat right top 1299px;
-    background-size: 29%; }
+    background: url("https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png") no-repeat right top 1299px;
+    background-size: 40%; }
 
   .disk-wrap {
     -webkit-box-pack: center;
@@ -407,8 +411,8 @@
     width: 87%; } }
 @media (max-width: 425px) {
   .warning {
-    background: url("../img/warning/warning-bg-2.png") no-repeat right top 1239px;
-    background-size: 49%; }
+    background: url("https://a.radikal.ru/a18/1911/05/6f11aa38b7e4.png") no-repeat right top 1239px;
+    background-size: 60%; }
 
   .quest-block {
     -webkit-box-orient: vertical;
@@ -649,7 +653,7 @@ h1, h2, h3, h4, h5 {
   padding: 0 15px; }
 
 .main-container {
-  max-width: 1085px;
+  max-width: 1920px;
   margin: 0 auto; }
 
 a {
